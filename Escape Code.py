@@ -13,3 +13,12 @@ print(a)
 # 작은 따옴표(')를 그대로 표현할 때 사용
 a = 'I\'m shy boy'
 print(a)
+
+# 큰 따옴표(")를 그대로 표현할 때 사용
+a = "\"I am shy boy\""
+print(a)
+
+# 캐리지 리턴(줄 바꿈 문자, 커서를 현재 줄의 가장 앞으로 이동)
+a = """    Bad days make good stories
+    \rBad days make good stories"""
+print(a)

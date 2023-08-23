@@ -31,3 +31,13 @@ print(len(a)) # 공백 문자도 포함
 a = "Time is gold"
 print("Indexing :", a[0], a[-1]) # 0부터 숫자를 센다. -1은 맨 뒤에서 부터 센다.
 print("Slicing :", a[0:4], a[8:]) # 끝 번호에 해당되는 문자는 포함하지 않음.
+print(a[:8] + 'sliver') # 문자열 치환하는 방법
+
+# 문자열 포매팅
+a = 3
+b = "one"
+print("I have a %d icecream and ate %s " %(a, b))
+# %s(문자열), %c(문자 1개), %d(정수), %f(부동소수)
+# %o(8진수), %x(16진수), %%(문자 % 자체)
+
+# 정렬과 공백

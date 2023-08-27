@@ -60,11 +60,21 @@ print("(10)--------------------")
 print("I ate {0} breads and {1} glass of orange juice. So i'm {situation} now".format(6, 3, situation = "full"))
 # {0}, {1}은 입력값의 순서임. name=value와 혼용 가능.
 print(",{0:=>10},{1:^10},{2:!<10},".format("apple", "kiwi", "orange"))
-# :>은 오른쪽, :^은 가운데 :<은 왼쪽 정렬임.
+# :>은 오른쪽, :^은 가운데 :<은 왼쪽 정렬임. 그리고 공백 채우기는 위와 같음.
 
 # (11) f 문자열 포매팅
 print("(11)--------------------")
 number = 2.216873
-print(f"{{number}}, {number:0.3f}")
+print(f"{{number}}, {number:10.3f}") #소수점 4자리까지 표현하고 총 자리수를 10으로 맞춤.
 # {{}}으로 {} 표현함.
 # f 접두사를 붙이면 f 문자열 포매팅 이용 가능.
+
+# (12) 문자열 내장 함수
+print("(12)--------------------")
+a = "My favoite activity is baseball."
+# 문자 개수 세기, 위치 알려주기
+print(a.count('i'), a.find('a'), a.find('d'))
+# 문자열 삽입
+print(",".join(a[:3]))
+# 소문자 -> 대문자 변환, 대문자 -> 소문자 변환
+print(a[:2].upper(), a[:2].lower())

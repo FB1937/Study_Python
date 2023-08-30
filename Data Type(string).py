@@ -72,9 +72,16 @@ print(f"{{number}}, {number:10.3f}") #소수점 4자리까지 표현하고 총 �
 # (12) 문자열 내장 함수
 print("(12)--------------------")
 a = "My favoite activity is baseball."
+b = "   Thank you   "
 # 문자 개수 세기, 위치 알려주기
 print(a.count('i'), a.find('a'), a.find('d'))
 # 문자열 삽입
 print(",".join(a[:3]))
 # 소문자 -> 대문자 변환, 대문자 -> 소문자 변환
 print(a[:2].upper(), a[:2].lower())
+# rstrip, lstrip, strip(양쪽 공백 지우기)
+print(b.rstrip(), b.lstrip(), b.strip())
+# 문자열 바꾸기
+print(a.replace("baseball", "basketball"))
+# 문자열 나누기 (리스트에 넣음)
+print(a.split(), a.split("a"))

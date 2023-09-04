@@ -37,3 +37,5 @@ print(a)
 a.reverse() # 현재의 리스트를 거꾸로 뒤집는다.
 a.insert(3, 'D') # 3번째 위치에 D를 삽입한다.
 print(a, a.index(5)) # 리스트에 5가 있으면 위칫값을 리턴한다.
+a.extend([3,1]) # 리시트를 추가한다.
+print(a, a.count(1)) # 리스트에 포함된 1의 갯수를 센다.

@@ -26,9 +26,15 @@ print(me['nationality'])
 # (4) 딕셔너리 관련 함수
 print("(4)--------------------")
 dic1 = {'a' : 1, 'b' : 2, 'c' : 3}
-print(dic1.keys()) # key 리스트 만들기
-print(dic1.values()) # value 리스트 만들기
-print(dic1.items()) # key, value 쌍 얻기
-print(dic1.get('d')) # key 로 value 얻기, key가 없을 때 none을 리턴함.
-print('a' in dic1, 'd' in dic1) # 해당 key가 딕셔너리 안에 있는지 조사하기
-print(dic1.clear()) # key, value 쌍 모두 지우기
+# key 리스트 만들기
+print(dic1.keys())
+# value 리스트 만들기
+print(dic1.values())
+# key, value 쌍 얻기
+print(dic1.items())
+# key 로 value 얻기, key가 없을 때 none을 리턴함.
+print(dic1.get('d'))
+# 해당 key가 딕셔너리 안에 있는지 조사하기
+print('a' in dic1, 'd' in dic1)
+# key, value 쌍 모두 지우기
+print(dic1.clear())

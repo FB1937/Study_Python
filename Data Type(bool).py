@@ -11,6 +11,7 @@ print(1==1, 1==2)
 
 # (2) 자료형의 참, 거짓
 print("(2)--------------------")
-print(bool("python"), bool(""))
+print(bool("python"), bool("")) 
 print(bool([1,2,3]), bool([]))
 print(bool(3), bool(0))
+print(bool(None))
